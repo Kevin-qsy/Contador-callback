@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Questão 3 - Contador com Callback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Contador</h1>
+
+  <div class="contador-container">
+    <button onclick="executarCallback(() => alterarContador(-1))">-</button>
+    <span id="valor">0</span>
+    <button onclick="executarCallback(() => alterarContador(1))">+</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
